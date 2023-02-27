@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap');
+
+*,html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* header settings */
+.siteHeader{/*only site header */
+    width:100%;
+    height:600px;
+    /* background-color: #7a6b6b; */
+    text-align: center;
+    background-image: url('../assets/logo1.jpg');
+    background-size: cover;
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+}
+/* dependency */
+.siteHeader > .siteNav{/*site nav */
+    width:100%;
+    background-color: #666664;
+    color: rgb(65, 59, 60);
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    /* position: fixed; */
+}
+.siteNav > a{/*a tag settings */
+    text-decoration: none;
+    padding-left: 80px;
+    color: #f52323;
+}
+.siteNav > a:hover{
+    color: #9788a5;
+}
+
+/* end of header settings */
+
+/* Main settings */
+.siteMain{
+    width:100%;
+    height:250vh;
+    background-color:#f4f3f6;
+    
+    /* border-image: linear-gradient(green,yellow,purple,black) 1;  */
+
+}
+.titles{
+    font-size: 50px;
+    color: #f52323;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    border: 3px solid rgb(27, 26, 26); 
+    /* border-radius: 10px; */
+
+
+}
+
+.section1{
+    
+    width:100%;
+    height:400px;
+    margin: auto; 
+    border: 3px solid silver;
+    
+   
+    
+    
+}
+.section2{
+   
+    width:100%;
+    /* margin: auto; */
+    height: 400px;
+    
+}
+.section3{
+    
+    width:100%;
+    height:500px;
+    margin: auto;
+    
+}
+.section4{
+    
+    width:100%;
+    height: 200px;
+    
+    /* color: #cfa9ca; */
+}
+
+section{
+    background-color: #7c8397;
+}
+
+section:nth-child(even){
+    background-color:rgb(228, 218, 229);
+
+}
+.sectionFont{
+    padding: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+}
+/* end of main settings */
+
+/* footer settings */
+
+.siteFooter{
+    padding-top: 20px;
+    width: 100%;
+    height: 200px;
+    bottom:0;
+    text-align: center;
+}
+/* end of footer settings */
